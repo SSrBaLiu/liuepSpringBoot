@@ -1,0 +1,27 @@
+player01:
+  userName: zhangsan
+  LV: 35
+  boss: true
+  birth: 2000/10/10
+  age: 21
+  pet:
+    name: qaq01
+    LV: 15
+  interests: [飞机,坦克]
+  friends:
+    - 李四
+    - 王五
+  score: {kv1: 1925, tiger: 1935}
+  salary:
+    - 5000.60
+    - 6000.50
+  allPets:
+    dragon:
+      - {name: qaq01, LV: 15}
+      - {name: qaq02, LV: 30}
+    dog:
+      - name: qwq01
+        LV: 15
+      - name: qwq02
+        LV: 20
+    cat: [{name: TAT01, LV: 10},{name: TAT02, LV: 13}]

@@ -1,7 +1,13 @@
 package org.liuep.boot.bean;
 
+import lombok.Data;
+import lombok.ToString;
+
+@ToString
+@Data
 public class Pet {
     private String name = "";
+    private Integer LV ;
 
     public Pet(){ }
 
